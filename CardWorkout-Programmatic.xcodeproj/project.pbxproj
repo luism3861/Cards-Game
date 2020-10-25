@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F840B50C2540D713001020CF /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840B50B2540D713001020CF /* CWButton.swift */; };
+		F840B51025437E81001020CF /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840B50F25437E81001020CF /* RulesVC.swift */; };
 		F870CA6C253F452E0023152D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870CA6B253F452E0023152D /* AppDelegate.swift */; };
 		F870CA6E253F452E0023152D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870CA6D253F452E0023152D /* SceneDelegate.swift */; };
-		F870CA70253F452E0023152D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870CA6F253F452E0023152D /* ViewController.swift */; };
-		F870CA73253F452E0023152D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F870CA71253F452E0023152D /* Main.storyboard */; };
 		F870CA76253F452E0023152D /* CardWorkout_Programmatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F870CA74253F452E0023152D /* CardWorkout_Programmatic.xcdatamodeld */; };
 		F870CA78253F45320023152D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F870CA77253F45320023152D /* Assets.xcassets */; };
 		F870CA7B253F45320023152D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F870CA79253F45320023152D /* LaunchScreen.storyboard */; };
+		F870CA83253F57050023152D /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870CA82253F57040023152D /* CardSelectionVC.swift */; };
+		F8FDD22E254601DE004D52A6 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDD22D254601DE004D52A6 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F840B50B2540D713001020CF /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		F840B50F25437E81001020CF /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 		F870CA68253F452E0023152D /* CardWorkout-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardWorkout-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F870CA6B253F452E0023152D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F870CA6D253F452E0023152D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F870CA6F253F452E0023152D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F870CA72253F452E0023152D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F870CA75253F452E0023152D /* CardWorkout_Programmatic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardWorkout_Programmatic.xcdatamodel; sourceTree = "<group>"; };
 		F870CA77253F45320023152D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F870CA7A253F45320023152D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F870CA7C253F45320023152D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F870CA82253F57040023152D /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		F8FDD22D254601DE004D52A6 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				F870CA6B253F452E0023152D /* AppDelegate.swift */,
 				F870CA6D253F452E0023152D /* SceneDelegate.swift */,
-				F870CA6F253F452E0023152D /* ViewController.swift */,
-				F870CA71253F452E0023152D /* Main.storyboard */,
+				F870CA82253F57040023152D /* CardSelectionVC.swift */,
+				F840B50B2540D713001020CF /* CWButton.swift */,
+				F8FDD22D254601DE004D52A6 /* CardDeck.swift */,
+				F840B50F25437E81001020CF /* RulesVC.swift */,
 				F870CA77253F45320023152D /* Assets.xcassets */,
 				F870CA79253F45320023152D /* LaunchScreen.storyboard */,
 				F870CA7C253F45320023152D /* Info.plist */,
@@ -130,7 +136,6 @@
 			files = (
 				F870CA7B253F45320023152D /* LaunchScreen.storyboard in Resources */,
 				F870CA78253F45320023152D /* Assets.xcassets in Resources */,
-				F870CA73253F452E0023152D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F870CA70253F452E0023152D /* ViewController.swift in Sources */,
+				F840B50C2540D713001020CF /* CWButton.swift in Sources */,
 				F870CA6C253F452E0023152D /* AppDelegate.swift in Sources */,
+				F840B51025437E81001020CF /* RulesVC.swift in Sources */,
+				F870CA83253F57050023152D /* CardSelectionVC.swift in Sources */,
+				F8FDD22E254601DE004D52A6 /* CardDeck.swift in Sources */,
 				F870CA6E253F452E0023152D /* SceneDelegate.swift in Sources */,
 				F870CA76253F452E0023152D /* CardWorkout_Programmatic.xcdatamodeld in Sources */,
 			);
@@ -151,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F870CA71253F452E0023152D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F870CA72253F452E0023152D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F870CA79253F45320023152D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
